@@ -24,6 +24,12 @@
   font-size: 1.2rem;
   line-height: 1.5;
   text-align: center;
+  span{
+    color: rgb(40, 40, 245);
+  }
+  h2{
+    margin-top: 48px;
+  }
 }
 
 .borderCircle {
@@ -35,7 +41,7 @@
 }
 
 .padding1px {
-  padding-top: 1px;
+  // padding-top: 1px;
 }
 
 .list {

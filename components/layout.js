@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.scss'
 import Link from 'next/link'
 
 const name = 'Plog'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Plog'
 
 export default function Layout({ children, home }) {
   return (
@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/plofile.png"
+              src="/images/profile.png"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
