@@ -25,11 +25,14 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
-}
-
-img:hover {
-  display: block;
-  animation: buruburu .1s  infinite;
+  &:hover{
+    display: block;
+    animation: buruburu .1s  infinite;
+  }
+  &:active{
+    transform: scale(-1, 1);
+    animation: none;
+  }
 }
 
 @keyframes buruburu {
